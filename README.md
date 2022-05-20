@@ -2,8 +2,8 @@
 少女前线反和谐补丁，对应包名`com.sunborn.girlsfrontline.cn`
 
 ## 依赖
-补丁依赖[Riru](https://github.com/RikkaApps/Riru/releases/latest)，使用前请先安装。
+这是一个`zygisk`模块，需要安装[Magisk](https://github.com/topjohnwu/Magisk)并启用`zygisk`功能。
 
 ## 使用
-在 [Release](https://github.com/0x0194/RE2AC/releases/latest) 中下载压缩包后解压至`/data/adb/modules/`文件夹，并使用`rootexplorer`为`/data/adb/modules/RE2AC/riru/lib/libRE2AC.so`更改SE上下文，从列表中选择为`u:object_r:system_file:s0`即可。  
-附带自定义名称，下载`Name.json`放置到`/sdcard/Android/obb/com.sunborn.girlsfrontline.cn`下。其中人形ID可以在`gun.json`中查找，开头为`gun-10000xxx`
+直接下载`zygisk_RE2AC.zip`并在Magisk中安装即可。  
+附带自定义名称功能，下载`Name.json`放置到`/sdcard`下。其中人形ID可以在`gun.json`中查找，开头为`gun-10000xxx`
